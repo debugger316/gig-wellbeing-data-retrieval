@@ -1,12 +1,11 @@
 {
-    "beginYear": 2018,
-    "beginMonth": 1,
-    "beginDay": 30,
-    "endYear": 2019,
-    "endMonth": 1,
-    "endDay": 30,
-    "sub": "UberDrivers",
-    "keyword": "sad",
-    "csvFileToSave": "data2.csv"
-  }
-  
+  "beginYear": 2018,
+  "beginMonth": 1,
+  "beginDay": 30,
+  "endYear": 2019,
+  "endMonth": 1,
+  "endDay": 30,
+  "sub": "UberDrivers",
+  "keyword": "sad",
+  "csvFileToSave": "data2.csv"
+}

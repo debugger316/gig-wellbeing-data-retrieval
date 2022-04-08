@@ -82,5 +82,6 @@ for file in args.json_files:
         specific_columns_df = whole_df[desired_columns]
 
         file_to_save = data_dict["csvFileToSave"]
-        specific_columns_df.to_csv(file_to_save)
-        print(specific_columns_df)
+        key = keyword.split("|")
+        specific_columns_df.to_csv("%s%d-%d%s.csv" %(sub,beginYear,endYear,key[0]))
+        # print(specific_columns_df)
